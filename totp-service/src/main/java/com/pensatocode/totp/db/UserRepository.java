@@ -1,7 +1,7 @@
 package com.pensatocode.totp.db;
 
+import com.pensatocode.googleauth.ICredentialRepository;
 import com.pensatocode.totp.model.User;
-import com.warrenstrange.googleauth.ICredentialRepository;
 
 import java.util.List;
 import java.util.Optional;

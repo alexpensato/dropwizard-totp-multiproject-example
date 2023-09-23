@@ -1,6 +1,6 @@
 package com.pensatocode.totp.model;
 
-import com.warrenstrange.googleauth.GoogleAuthenticatorKey;
+import com.pensatocode.googleauth.GoogleAuthenticatorKey;
 
 import java.util.Arrays;
 

@@ -1,9 +1,12 @@
 package com.pensatocode.totp.services;
 
+import com.pensatocode.googleauth.GoogleAuthenticator;
+import com.pensatocode.googleauth.GoogleAuthenticatorConfig;
+import com.pensatocode.googleauth.GoogleAuthenticatorKey;
+import com.pensatocode.googleauth.HmacHashFunction;
+import com.pensatocode.googleauth.KeyRepresentation;
 import com.pensatocode.totp.db.UserRepository;
-import com.warrenstrange.googleauth.*;
-import com.warrenstrange.googleauth.GoogleAuthenticatorConfig.GoogleAuthenticatorConfigBuilder;
-
+import com.pensatocode.googleauth.GoogleAuthenticatorConfig.GoogleAuthenticatorConfigBuilder;
 
 public class SecretKeyGenerator {
 
